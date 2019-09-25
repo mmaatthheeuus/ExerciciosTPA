@@ -1,0 +1,19 @@
+<html>
+    <head>
+         <meta charset="UTF-8">
+        <script>
+                function foco() {
+                    console.log("O campo EMAIL está em foco");
+                }
+                function focu() {
+                    console.log("O campo SENHA está em foco");
+                }
+        </script>
+    </head>
+    <body>
+        <form>
+            Email: <input name="email" type="email" onfocus="foco()" /><br>
+            Senha: <input name="senha" type="password" onfocus="focu()" />
+        </form>
+    </body>
+</html>
