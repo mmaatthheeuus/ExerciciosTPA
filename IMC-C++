@@ -11,13 +11,13 @@ int main()
 	float altura = 0, peso = 0, imc = 0;
 	
 	printf("Informe a altura do aluno: ");
-	scanf("f%", &altura);
+	scanf("%f", &altura);
 	
 	printf("Informe o peso referente ao mesmo aluno: ");
-	scanf("f%", &peso);
+	scanf("%f", &peso);
 	
 	imc = peso / (altura * altura);
 	
-	printf("O IMC deste aluno é de: f%", imc);
+	printf("O IMC deste aluno é de: %f", imc);
 	return 0;
 }
